@@ -64,7 +64,7 @@ loader.load(
 );
 
 loader.load(
-    "./assets/Soldier.glb",
+    "./Soldier.glb",
     function (gltf) {
         const model = gltf.scene;
         model.position.set(10, 10, 10);
